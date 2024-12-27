@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aytor</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+
+    <!-- HEADER STARTS -->
+    <header>
+        <!-- Navbar LG -->
+        <nav class="navbar navbar-expand-lg d-none d-lg-block shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logos/original-aytor.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarLG">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Features <span class="lh-0"><iconify-icon
+                                        icon="iconamoon:arrow-down-2-thin" width="24"
+                                        height="24"></iconify-icon></span></a>
+
+                            <!-- submenu -->
+                            <ul class="submenu">
+                                <li>
+                                    <a href="#">Lipstick</a>
+                                </li>
+                                <li>
+                                    <a href="#">Foundation</a>
+
+                                    <ul class="submenu">
+                                        <li>
+                                            <a href="#">Korean</a>
+                                            <ul class="submenu">
+                                                <li>
+                                                    <a href="#">Low Cost</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">High Cost</a>
+                                                    <ul class="submenu">
+                                                        <li>
+                                                            <a href="#">Test</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Test2</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">Test3</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="#">China</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">India</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">Eyeliner</a>
+                                </li>
+                            </ul>
+                            <!-- submenu ends -->
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Contact</a>
+                        </li>
+
+                    </ul>
+                    <div class="quickLinks">
+                        <a class="lh-0 search_icon" href="#">
+                            <iconify-icon icon="icons8:search" width="24" height="24"></iconify-icon>
+                        </a>
+                        <a class="lh-0" href="#">
+                            <iconify-icon icon="iconoir:user" width="24" height="24"></iconify-icon>
+                        </a>
+                        <a class="lh-0" href="#">
+                            <iconify-icon icon="iconoir:heart" width="24" height="24"></iconify-icon>
+                        </a>
+                        <a class="lh-0 " href="#">
+                            <iconify-icon icon="solar:bag-4-outline" width="24" height="24"></iconify-icon>
+                            <span class="counter">0</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar LG End -->
+        <!-- Navbar SM -->
+        <nav class="navbarSm shadow py-3 d-lg-none">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col text-center">
+                        <a class="lh-0 text-dark" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button">
+                            <iconify-icon icon="ci:menu-alt-03" width="24" height="24"></iconify-icon>
+                        </a>
+
+                    </div>
+                    <div class="col-6 text-center navbarLogoSm">
+                        <a href="#"><img src="./images/logos/original-aytor.png" alt=""></a>
+                    </div>
+                    <div class="col text-center">
+                        <div class="quickLinks lh-0 mobile_search_icon">
+                            <a class="lh-0" href="#">
+                                <iconify-icon icon="icons8:search" width="24" height="24"></iconify-icon>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbar SM End -->
+
+        <!-- SIDEBAR -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div>
+                    Some text as placeholder. In real life you can have the elements you have chosen. Like, text,
+                    images, lists,
+                    etc.
+                </div>
+                <div class="dropdown mt-3">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Dropdown button
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- SIDEBAR END -->
+
+        <!-- MOBILE MENU -->
+        <div class="mobileMenu d-lg-none">
+            <div class="container">
+                <div class="quickLinks">
+                    <a class="lh-0" href="#">
+                        <iconify-icon icon="icons8:search" width="24" height="24"></iconify-icon>
+                    </a>
+                    <a class="lh-0" href="#">
+                        <iconify-icon icon="iconoir:user" width="24" height="24"></iconify-icon>
+                    </a>
+                    <a class="lh-0" href="#">
+                        <iconify-icon icon="iconoir:heart" width="24" height="24"></iconify-icon>
+                    </a>
+                    <a class="lh-0 " href="#">
+                        <iconify-icon icon="solar:bag-4-outline" width="24" height="24"></iconify-icon>
+                        <span class="counter">0</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- MOBILE MENU END -->
+
+    </header>
+    <!-- HEADER ENDS -->
+
+    <!-- SEARCH POPUP -->
+    <section id="search">
+
+        <form action="" method="">
+            <div class="btn-group">
+                <input class="input" type="text" placeholder="search">
+                <button>
+                    <span><iconify-icon icon="lucide:search" width="24" height="24"></iconify-icon></span>
+                </button>
+            </div>
+        </form>
+
+        <div class="cross">
+            <span><iconify-icon icon="maki:cross" width="20" height="20"></iconify-icon></span>
+        </div>
+
+    </section>
+    <!-- SEARCH POPUP END -->
+
+
+    <!-- ADD POPUP -->
+    <section id="add_popup">
+        <div class="container" style="background-image:url('./images/logos/Mask Here.png')">
+            <h4>Newsletter</h4>
+            <p>Seamlessly disseminate interoperable collaboration and idea-sharing via magnetic catalysts for change.
+                Interactively enable competitive customer service.</p>
+
+            <span class="btn_cross"><iconify-icon icon="lucide:search" width="24" height="24"></iconify-icon></span>
+        </div>
+
+
+    </section>
+    <!-- ADD POPUP END -->
+
+
+    <!-- BANNER  -->
+    <section id="banner">
+        <div class="sliders">
+
+            <div class="slider" style="background-image:url('./images/logos/banner.jpg')">
+                <div class="container">
+                    <h4>Mega Sale</h4>
+                    <h2>Up To 35% Off</h2>
+                    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                    <a href="#">Shop Now <span><iconify-icon icon="nrk:arrow-left" width="24"
+                                height="24"></iconify-icon></span> </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="slider" style="background-image:url('./images/logos/banner.jpg')">
+                <div class="container">
+                    <h4>Mega Sale</h4>
+                    <h2>Up To 35% Off</h2>
+                    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                    <a href="#">Shop Now <span><iconify-icon icon="nrk:arrow-left" width="24"
+                                height="24"></iconify-icon></span> </a>
+                </div>
+            </div>
+
+
+
+            <div class="slider" style="background-image:url('./images/logos/banner.jpg')">
+                <div class="container">
+                    <h4>Mega Sale</h4>
+                    <h2>Up To 35% Off</h2>
+                    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                    <a href="#">Shop Now <span><iconify-icon icon="nrk:arrow-left" width="24"
+                                height="24"></iconify-icon></span> </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="slider" style="background-image:url('./images/logos/banner.jpg')">
+                <div class="container">
+                    <h4>Mega Sale</h4>
+                    <h2>Up To 35% Off</h2>
+                    <p>Objectively incubate enabled innovation through leveraged mindshare. Competently.</p>
+                    <a href="#">Shop Now <span><iconify-icon icon="nrk:arrow-left" width="24"
+                                height="24"></iconify-icon></span> </a>
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+    <!-- BANNER END -->
+
+    <!-- Latest Product -->
+    <section id="latestProduct">
+        <div class="container">
+            <div class="productSlider">
+
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="productSlide">
+                    <div class="prouductCard">
+                        <div class="productImg">
+                            <!-- Product image here -->
+                            <a href="#">
+                                <img src="./images/BG.png" alt="">
+                            </a>
+                            <!-- Discount -->
+                            <div class="discount">
+                                <p>-45%</p>
+                            </div>
+                            <!-- Quick Links -->
+                            <ul class="quickLinks">
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Add To Cart" href="#"><iconify-icon
+                                            icon="tdesign:cart-add" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Wishlist" href="#"><iconify-icon
+                                            icon="mdi:heart" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Quick View" href="#"><iconify-icon
+                                            icon="lsicon:view-filled" width="20" height="20"></iconify-icon></a></li>
+                                <li><a data-bs-custom-class="customToolTip" data-bs-toggle="tooltip"
+                                        data-bs-placement="left" data-bs-title="Trending Product" href="#"><iconify-icon
+                                            icon="game-icons:network-bars" width="20" height="20"></iconify-icon></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="productCnt">
+                            <p>$150.65</p>
+                            <a href="#">
+                                <h3>Lotion Shower gel</h3>
+                            </a>
+                            <!-- <h3><a href="#">Lotion Shower gel</a></h3> -->
+                            <span>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                                <iconify-icon icon="material-symbols-light:star-rounded" width="20"
+                                    height="20"></iconify-icon>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="productLeftArrow" class="leftArrow"><iconify-icon icon="simple-line-icons:arrow-left" width="16"
+                    height="16"></iconify-icon></div>
+            <div id="productRightArrow" class="rightArrow"><iconify-icon icon="simple-line-icons:arrow-right" width="16"
+                    height="16"></iconify-icon></div>
+        </div>
+    </section>
+    <!-- Latest Product End -->
+
+
+    <!-- Deal of the Day SECTION -->
+    <section id="dealToday">
+        <div class="container">
+            <div class="productWrapper">
+                <div class="timer">
+                    <ul>
+                        <li>
+                            <p class="days">27</p>
+                            Days
+                        </li>
+                        <li>
+                            <p class="hrs">27</p>
+                            Hours
+                        </li>
+                        <li>
+                            <p class="mins">27</p>
+                            Minute
+                        </li>
+                        <li>
+                            <p class="secs">27</p>
+                            Sec
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Deal of the Day SECTION ENDS -->
+
+
+
+
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.2.0/iconify-icon.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
